@@ -1,4 +1,4 @@
-library custom_forked_dropdown;
+library animated_custom_dropdown;
 
 import 'dart:async';
 
