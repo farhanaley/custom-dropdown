@@ -323,9 +323,11 @@ class _DropdownOverlayState<T> extends State<_DropdownOverlay<T>> {
                   axisAlignment: displayOverlayBottom ? 1.0 : -1.0,
                   child: SizedBox(
                     key: key2,
-                    height: items.length > 4
-                        ? widget.overlayHeight ?? (onSearch ? 270 : 225)
-                        : null,
+                    height: 
+                    // items.length > 4
+                    //     ? 
+                    widget.overlayHeight ?? (onSearch ? 270 : 225),
+                        // : null,
                     child: ClipRRect(
                       borderRadius: decoration?.expandedBorderRadius ??
                           _defaultBorderRadius,
